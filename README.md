@@ -14,3 +14,23 @@
     <img src="https://img.shields.io/pypi/pyversions/olympia.svg?color=%2334D058" alt="Supported Python Versions">
 </a>
 </p>
+
+## Installation
+
+```python
+pip install olympia
+```
+
+## Usage
+
+```python
+from olympia import LinkedList
+
+ll = LinkedList()
+ll.add_last(1)
+ll.add_last(2)
+ll.add_last(3)
+ll
+
+1 -> 2 -> 3 -> None
+```
