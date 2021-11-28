@@ -25,7 +25,7 @@ mypy:
 	poetry run mypy src tests
 
 pydocstyle:
-	poetry run pydocstyle src tests
+	poetry run pydocstyle src tests --count
 
 isort:
 	poetry run isort src tests
