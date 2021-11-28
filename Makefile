@@ -16,7 +16,7 @@ clean-test:
 clean: clean-pyc clean-test
 
 test: clean
-	poetry run pytest tests -v --cov
+	poetry run pytest tests -v --cov --cov-report=xml --cov-report=term-missing
 
 flake8:
 	poetry run flake8 src tests
