@@ -11,20 +11,21 @@ classifiers = [
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
 ]
 
 [tool.poetry.dependencies]
 python = "^3.7.1"
 
 [tool.poetry.dev-dependencies]
-black = "^21.5b1"
-flake8 = "^3.9.2"
+black = "^21.11b1"
+flake8 = "^4.0.1"
 isort = "^5.8.0"
 mypy = "^0.910"
 pre-commit = "^2.13.0"
 pydocstyle = "^6.1.1"
 pytest = "^6.2.4"
-pytest-cov = "^2.12.0"
+pytest-cov = "3.0.0"
 
 [tool.poetry.scripts]
 olympia = "olympia.__main__:main"
