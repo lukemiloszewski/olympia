@@ -46,6 +46,9 @@ source = ["olympia"]
 show_missing = true
 fail_under = 100
 
+[tool.coverage.xml]
+output = "coverage.xml"
+
 [tool.mypy]
 strict = true
 pretty = true
