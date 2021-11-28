@@ -48,3 +48,6 @@ jobs:
     - name: Run Tests
       run: |
         make test
+
+    - name: Upload Coverage
+      uses: codecov/codecov-action@v2
