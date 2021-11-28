@@ -1,4 +1,4 @@
-<p align="center">Olympia</p>
+<h1 align="center">Olympia</h1>
 <p align="center">Data structures and algorithms in Python 🐍</p>
 <p align="center">
 <a href="https://github.com/lukemiloszewski/olympia/actions/workflows/ci.yml/badge.svg" target="_blank">
